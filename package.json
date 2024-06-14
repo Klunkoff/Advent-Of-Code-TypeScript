@@ -1,0 +1,19 @@
+{
+  "name": "day1trebuchet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && npm run postcompile",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcompile": "copyfiles -u 1 tasks/**/*.txt out/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "copyfiles": "^2.4.1"
+  }
+}
